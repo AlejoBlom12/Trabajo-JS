@@ -85,7 +85,7 @@ function esPalindromo(cadena) {
 }
 
 let cadena1 = "Que va";
-var cadena2 = "A man, a plan, a canal, Panama";
+let cadena2 = "A man, a plan, a canal, Panama";
 
 console.log("¿'Que va' es un palíndromo? " + esPalindromo(cadena1));
 console.log("¿'A man, a plan, a canal, Panama' es un palíndromo? " + esPalindromo(cadena2));
@@ -108,7 +108,7 @@ console.log("Dirección: " + persona.direccion);
 console.log("\n\n")
 
 //2. Crear un arreglo de objetos que representen productos con propiedades como nombre, precio y cantidad en stock. Luego, listar los productos con su información.
-var productos = [
+let productos = [
     {
       nombre: "Locion",
       precio: 50000,
